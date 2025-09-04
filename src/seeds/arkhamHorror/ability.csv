@@ -1,0 +1,15 @@
+AbilityId	Name	Description
+1	Family Curse	"While resolving a test, only 6s count as successes. You cannot become BLESSED or CURSED."
+2	Never Give Up	"After you fail a test, you focus one skill of your choice."
+3	Trust Fund	"Action: If you have fewer than $3, you gain $3."
+4	Smoky Velvet	"Once per round, after you perform an action, another investigator on any space may perform that same action. (Normal action restrictions still apply)"
+5	Magical Gift	"Once per round, while resolving a LORE test, you may reroll one or all of your dice."
+6	In the Stars	"After you remove two or more doom from your space, you may suffer one horror to research one clue (place it on the scenario sheet)."
+7	Love For the Job	"After you perform a gather resources action, you may focus one skill of your choice."
+8	Shortcut	"Before or after you perform an additional action as part of an evade action, you may move up to two spaces (for free)."
+9	Out for Revenge	"After you defeat a monster as part of an attack action, you recover one sanity or focus one skill of your choice."
+10	Friend Indeed	Action: You may exchange any amount of healthj and/or sanity with another investigator or ally in any space.
+11	Blood Casting	You may suffer damage instead of horror while casting a spell.
+12	Blood is Power	"While casting a spell, if you suffer damage or spend remnants, you get +2 Lore."
+13	Shield From Harm	"If a monster would engage another investigator in your space, you may engage that monster instead."
+14	All Around You	"Once per round, while resolving a test, you or another investigator in your space may reroll dice up to the number of clues in your neighborhood."

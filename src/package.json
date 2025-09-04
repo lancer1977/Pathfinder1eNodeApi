@@ -1,0 +1,29 @@
+{
+  "name": "poly-web-node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "PolyWebNode",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.2.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.5.0",
+    "jstoxml": "^1.6.11",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "mssql": "^6.2.3",
+    "pug": "^2.0.4",
+    "serve-favicon": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=0.12.3"
+  }
+}

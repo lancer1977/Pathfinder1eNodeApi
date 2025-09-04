@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>PolyWebNode</Name>
+    <RootNamespace>PolyWebNode</RootNamespace>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6e5bf0ce-b04e-4578-b261-5e3c7323312c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>True</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.js" />
+    <Content Include="models\arkhamHorror\ability.js" />
+    <Content Include="models\arkhamHorror\investigator.js" />
+    <Content Include="models\arkhamHorror\story.js" />
+    <Content Include="models\game.js" />
+    <Content Include="models\mathscore.js" />
+    <Content Include="models\pathfinder\ammo.js" />
+    <Content Include="models\pathfinder\archtype.js" />
+    <Content Include="models\pathfinder\armor.js" />
+    <Content Include="models\pathfinder\armorFeatures.js" />
+    <Content Include="models\pathfinder\characterClass.js" />
+    <Content Include="models\pathfinder\charactersave.js" />
+    <Content Include="models\pathfinder\classAbility.js" />
+    <Content Include="models\pathfinder\condition.js" />
+    <Content Include="models\pathfinder\deed.js" />
+    <Content Include="models\pathfinder\feat.js" />
+    <Content Include="models\pathfinder\language.js" />
+    <Content Include="models\pathfinder\magicItem.js" />
+    <Content Include="models\pathfinder\monster.js" />
+    <Content Include="models\pathfinder\mundane.js" />
+    <Content Include="models\pathfinder\power.js" />
+    <Content Include="models\pathfinder\race.js" />
+    <Content Include="models\pathfinder\racialtrait.js" />
+    <Content Include="models\pathfinder\skill.js" />
+    <Content Include="models\pathfinder\specialization.js" />
+    <Content Include="models\pathfinder\spell.js" />
+    <Content Include="models\pathfinder\trait.js" />
+    <Content Include="models\pathfinder\weapon.js" />
+    <Content Include="models\pathfinder\weaponfeature.js" />
+    <Content Include="models\pathfinder\words.js" />
+    <Content Include="models\podcastDefinition.js" />
+    <Content Include="mongo.js" />
+    <Content Include="routes\arkhamHorror.js" />
+    <Content Include="routes\gameRoute.js" />
+    <Content Include="routes\index.js">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="routes\mathscore.js" />
+    <Content Include="routes\podcast.js" />
+    <Content Include="routes\sql.js" />
+    <Content Include="gulpfile.js" />
+    <Content Include="package.json">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="public\stylesheets\main.css" />
+    <Content Include="README.md" />
+    <Content Include="routes\pathfinderRoute.js">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="seeds\pathfinder\ammo.js" />
+    <Content Include="seeds\pathfinder\archtype.js" />
+    <Content Include="seeds\arkhamHorror\ability.csv" />
+    <Content Include="seeds\arkhamHorror\ability.js" />
+    <Content Include="seeds\arkhamHorror\investigator.csv" />
+    <Content Include="seeds\arkhamHorror\investigator.js" />
+    <Content Include="seeds\arkhamHorror\story.csv" />
+    <Content Include="seeds\arkhamHorror\story.js" />
+    <Content Include="seeds\pathfinder\armor.js" />
+    <Content Include="seeds\pathfinder\ArmorFeatures.js" />
+    <Content Include="seeds\pathfinder\CharacterClass.js" />
+    <Content Include="seeds\charactersave.js" />
+    <Content Include="seeds\pathfinder\ClassAbility.js" />
+    <Content Include="seeds\pathfinder\Conditions.js" />
+    <Content Include="seeds\pathfinder\deed.js" />
+    <Content Include="seeds\pathfinder\Feats.js" />
+    <Content Include="seeds\game.csv" />
+    <Content Include="seeds\game.js" />
+    <Content Include="seeds\pathfinder\language.js" />
+    <Content Include="seeds\pathfinder\MagicItems.js" />
+    <Content Include="seeds\pathfinder\monster.js" />
+    <Content Include="seeds\pathfinder\mundane.js" />
+    <Content Include="seeds\podcast.js" />
+    <Content Include="seeds\pathfinder\Powers.js" />
+    <Content Include="seeds\pathfinder\race.js" />
+    <Content Include="seeds\pathfinder\racialtrait.js" />
+    <Content Include="seeds\pathfinder\Skills.js" />
+    <Content Include="seeds\pathfinder\specialization.js" />
+    <Content Include="seeds\pathfinder\SpecificArmor.js" />
+    <Content Include="seeds\pathfinder\SpecificWeapon.js" />
+    <Content Include="seeds\pathfinder\Spells.js" />
+    <Content Include="seeds\pathfinder\Traits.js" />
+    <Content Include="seeds\pathfinder\weapon.js" />
+    <Content Include="seeds\pathfinder\weaponfeature.js" />
+    <Content Include="seeds\pathfinder\Words.js" />
+    <Content Include="views\index.pug" />
+    <Content Include="views\layout.pug" />
+    <Content Include="views\error.pug" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
+    <Folder Include="models\arkhamHorror\" />
+    <Folder Include="models\pathfinder\" />
+    <Folder Include="public\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\javascripts\" />
+    <Folder Include="public\stylesheets\" />
+    <Folder Include="routes\" />
+    <Folder Include="seeds\" />
+    <Folder Include="seeds\arkhamHorror\" />
+    <Folder Include="seeds\pathfinder\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <Publish>True</Publish>
+    </Content>
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

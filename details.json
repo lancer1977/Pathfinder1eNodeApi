@@ -1,0 +1,12 @@
+{
+  "id": "pathfinder1e_node_api",
+  "title": "API Spotify",
+  "summary": "Libraries for interacting with the Polyhydra CDN.",
+  "docsHref": "/pathfinder1e_node_api/index.html",
+  "imageHref": "/pathfinder1e_node_api/images/logo.png",
+  "repoHref": "https://github.com/lancer1977/Pathfinder1eNodeApi",
+  "version": "1.4.2",
+  "tags": [ "nodejs"],
+  "updated": "2025-09-01",
+  "color": "#f39c12"
+}

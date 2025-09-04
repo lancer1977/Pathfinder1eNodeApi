@@ -1,0 +1,13 @@
+InvestigatorId,Name,Title,Lore,Influence,Observation,Strength,Will,Focus,Health,Horror,StartingWealth,AdditionalRules,FlavorText,StartingItems,OptionalItems,Role1,Role2
+1,Min Thi Phan,The Secretary,3,3,3,2,2,2,6,6,3,All Around You,"I'm certain that if we work together, we can find the solution",King in Yellow,"Analytical Mind, Synergy",Seeker,Survivor
+2,Rex Murphy,The Reporter,3,3,3,2,2,-1,7,7,3,"Family Curse, Never Give Up",How'd I get mixed up in all this? Just lucky I guess.,"Search for the Truth, The Tower","It All Comes Together, Overcome All Odds,",Seeker,Rogue
+3,Jenny Barnes,The Dilettante,1,4,2,3,3,1,7,5,5,Trust Fund,"I'm happy to throw money at the problem, and if that doesn't work I'll throw something else.",Search for Isabelle,"Dressed to the Nines, Jenny's Twin .45's",Rogue,?
+4,Agnes Baker,The Waitress,4,2,2,2,3,2,6,6,3,"Blood Casting, Blood is Power",Things aren�t awlays what they seem.,Heirloom of Hyperborea,"Storm of Spirits, Flesh Ward",Mystic,Guardian
+5,Calvin Wright,The Haunted,3,3,3,3,1,2,6,6,3,Friend Indeed,I'll sacrifice everything to keep you safe,"Spirit Dagger, Until the End of Time",Voice of the Messanger,Guardian,Rogue
+6,Tommy Muldoon,?,2,2,3,3,3,2,7,5,2,Shield From Harm,"Come on, Tommy. Time to be a hero.",Becky,"Handcuffs,?",Guardian,Survivor
+7,Michael McGlen,The Mobster,2,3,1,4,3,1,8,4,3,One for Revenge,This one's for Louis,Chichago Typewriter,"Ol' Boiler, O'Bannion Member",Rogue,Guardian
+8,Wendy Adams,The Urchin,3,1,4,2,3,3,5,7,1,Shortcut,"Someday I'll find my Papa, and Mama will come home with us and we'll be happy again. You'll see.",Mama's Amulet,"Mr. Pawterson, Mysterious Photo",Survivor,Seeker
+9,Daniela Reyes,The Mechanic,3,3,1,3,3,3,7,5,3,Love For the Job,You got a job that needs doing. I'm your girl.,Gabriel,"Ace of Swords,?",Rogue,Survivor
+10,Norman Withers,The Astronomer,3,1,3,2,4,2,5,7,1,In the Stars,Saying 'that's impossible!' doesn't make anything less true. The truth doesn't care what you believe.,Find Gate,"Astronomy Book, ?",Seeker,Mystic
+11,Dexter Drake,The Magician,4,3,2,2,2,-2,5,7,2,Magical Gift,"You don't want to see real magic, kid. Nobody does.",Mists of R'lyeh,"Astral Travel, ?",Mystic,
+12,Marie Lameau,The Entertainer,3,4,2,2,2,2,5,7,4,Smoky Velvet,"Just listen, and I'll sing for you a spell.",Intervene,"Witch Blood, Grande-mere's Knife",Mystic,Survivor
